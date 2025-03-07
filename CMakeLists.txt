@@ -4,11 +4,11 @@ project(LaneDetection)
 set(CMAKE_CXX_STANDARD 14)
 
 # vcpkg 集成
-set(CMAKE_TOOLCHAIN_FILE "D:/vcpkg/scripts/buildsystems/vcpkg.cmake")
+set(CMAKE_TOOLCHAIN_FILE "E:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 
 # 查找 OpenCV
-find_package(OpenCV REQUIRED)
+find_package(OpenCV CONFIG REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # 源码文件
