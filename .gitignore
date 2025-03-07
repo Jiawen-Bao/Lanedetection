@@ -1,0 +1,51 @@
+Build folders
+
+/build/
+/out/
+
+Compiled binary files
+
+*.exe
+*.dll
+*.lib
+*.pdb
+
+Object files
+
+*.o
+*.obj
+
+CMake files
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+Visual Studio files
+
+*.VC.db
+*.VC.opendb
+
+VSCode settings
+
+.vscode/
+
+Logs and temporary files
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+System files
+
+.DS_Store
+Thumbs.db
+
+# Visual Studio 缓存
+.vs/
+*.ipch
+build/
+out/
+
