@@ -14,6 +14,10 @@ private:
         std::vector<cv::Vec4i>& left_lines,
         std::vector<cv::Vec4i>& right_lines,
         int img_center_x);
+    //车道线分离
+
+    cv::Mat fitPolynomial(const std::vector<cv::Point>& points, const cv::Size& img_size, cv::Scalar color);
+    //曲线拟合
 };
 
 #endif // LANE_DETECTOR_H
